@@ -17,7 +17,7 @@ The K-nearest neighbours (KNN) algorithm is a type of supervised machine learnin
 
 ## Files
 * ```Data folder``` contains face data
-* ```collect.py``` file detect the face and collects face data 
+* ```collect.py``` file detects the face and collects face data 
 * ```test.py``` file detects the face and recognises the person
 
 ## Resources
