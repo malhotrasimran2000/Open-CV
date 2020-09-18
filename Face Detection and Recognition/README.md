@@ -19,6 +19,7 @@ The K-nearest neighbours (KNN) algorithm is a type of supervised machine learnin
 * ```Data folder``` contains face data
 * ```collect.py``` file detects the face and collects face data 
 * ```test.py``` file detects the face and recognises the person
+* ```XML files``` contains the Haar Cascade XML files
 
 ## Resources
 * Face Detection using Haar Cascades([Click here](https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_objdetect/py_face_detection/py_face_detection.html))
