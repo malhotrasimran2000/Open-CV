@@ -13,7 +13,7 @@ The K-nearest neighbours (KNN) algorithm is a type of supervised machine learnin
 * Follow the steps for installation [here](https://pypi.org/project/opencv-contrib-python/)  
     * Make sure to first uninstall cv2 ``` pip uninstall cv2 ```  
     * Then install contrib package ``` pip install opencv-contrib-python ```  
-*Download the required XML files [here](https://github.com/opencv/opencv/tree/master/data/haarcascades)
+* Download the required XML files [here](https://github.com/opencv/opencv/tree/master/data/haarcascades)
 
 ## Files
 * ```Data folder``` contains face data
