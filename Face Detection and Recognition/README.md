@@ -21,6 +21,19 @@ The K-nearest neighbours (KNN) algorithm is a type of supervised machine learnin
 * ```test.py``` file detects the face and recognises the person
 * ```XML files``` contains the Haar Cascade XML files
 
+## How to run the script?
+1. Make sure you have the face data(numpy files) and the test.py file in the same directory.
+2. To collect face data:
+   * Run the code with the command ```python3 collect.py```
+   * Enter the name of the person whose face data is being stored.
+   * Read the video stream,capture images
+   * It stores face_data after every 10 frames(i.e. an image is captured after every 10 frames)<br>
+      **Note :** For higher accuracy,it is suggested to capture a minimum of 30 images under proper lighting.
+   * To quit,press 'q' <br>
+3. To detect and recognise the face:
+    * Run the code with the command ```python3 test.py```
+    * To quit,press 'q' 
+
 ## Resources
 * Face Detection using Haar Cascades([Click here](https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_objdetect/py_face_detection/py_face_detection.html))
 * KNN Classification([Click here](https://towardsdatascience.com/machine-learning-basics-with-the-k-nearest-neighbors-algorithm-6a6e71d01761))
