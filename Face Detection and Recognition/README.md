@@ -1,7 +1,7 @@
 # Face Detection and Recognition
 
 ## Introduction
-This project uses Open CV and the Haarcascade Classifier for face detection and the collected data is trained using KNN classification model.
+This project uses Open CV and the Haarcascade Classifier for face detection and the collected data is stored as numpy files.Prediction is done using KNN classification model.
 
 ## Abstract 
 Object Detection using Haar feature-based classifiers is an effective object detection method.It is a machine learning based approach where a cascade function is trained from a lot of positive and negative images.It is then used to detect objects in other images.
